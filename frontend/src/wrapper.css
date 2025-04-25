@@ -1,0 +1,25 @@
+.wrapper-background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    background: #EFF4FF;
+    height: 100vh;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.wrapper-title {
+    margin: 70px 0 10px 0;
+}
+
+.arrow-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}

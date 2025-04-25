@@ -1,0 +1,72 @@
+.add-page-background {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #fff;
+    width: 32%;
+    height: 65%;
+    padding: 40px;
+    margin-bottom: 20px;
+
+    border: 1px solid #000;
+    border-radius: 25px;
+    /* overflow: hidden; */
+}
+
+.add-class-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 50px;
+    width: 95%;
+    height: 10%;
+    min-height: 20px;
+    cursor: pointer;
+}
+
+.add-class-button:hover {
+    transition: 0.2s;
+    background-color: #eeeeee;
+}
+
+.add-class-button:active {
+    transform: scale(0.95);
+}
+
+.classes-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+    padding-right: 5px;
+
+    flex: 1;
+    overflow-y: auto;
+}
+
+.next-button {
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.next-button:hover {
+    transition: 0.2s;
+    background-color: #eeeeee;
+}
+
+.next-button:active {
+    transform: scale(0.95);
+}
