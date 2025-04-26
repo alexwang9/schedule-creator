@@ -147,7 +147,12 @@ export default function Wrapper() {
 
       // const rankedClasses = classes.map((cls, i) => ({ ...cls, rank: i }));
       const ready = prepClassesForApi(classes).map((cls, i) => ({ ...cls, rank: i }));
-      const response = await axios.post('/api/generate-schedules', {
+
+      const API_BASE = process.env.NODE_ENV === 'production'
+        ? '/schedule-creator-backend'
+        : '';
+
+      const response = await axios.post(`${API_BASE}/api/generate-schedules`, {
         classes: ready,
         preferences
       });
