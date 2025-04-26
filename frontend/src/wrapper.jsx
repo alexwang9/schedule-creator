@@ -180,7 +180,7 @@ export default function Wrapper() {
 
   return (
     <div className='wrapper-background'>
-      <h1 className='wrapper-title'>course-ai</h1>
+      <h1 className='wrapper-title'>sketch</h1>
       {page === 1 ? 
         <p className='wrapper-subtitle'>add classes & rank according to desire to take</p>
         :
